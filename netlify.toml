@@ -2,5 +2,8 @@
 command = "react-router build"
 publish = "build/client"
 
+[build.environment]
+  NODE_OPTIONS = "--max_old_space_size=4096"
+
 [dev]
 command = "react-router dev"
